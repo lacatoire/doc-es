@@ -16,7 +16,7 @@
    el nombre de la clase en la última "llamada no reenviada". En el caso de las llamadas de
    métodos estáticos, se trata de la clase explícitamente nombrada (generalmente, la que está a
    la izquierda del operador
-   <link linkend="language.oop5.paamayim-nekudotayim"><literal>::</literal></link>) ;
+   <link linkend="language.oop5.paamayim-nekudotayim"><literal>::</literal></link>);
    en el caso de métodos no estáticos, se trata de la clase del objeto. Una "llamada
    reenviada" es una llamada estática introducida por <literal>self::</literal>,
    <literal>parent::</literal>, <literal>static::</literal>, o, subiendo en la

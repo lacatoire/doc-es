@@ -59,7 +59,7 @@
       <entry>8.3.0</entry>
       <entry>
        Llamar a <function>get_parent_class</function> sin argumento genera ahora un aviso
-       <constant>E_DEPRECATED</constant> ;
+       <constant>E_DEPRECATED</constant>;
        previamente, llamar a esta función dentro de una clase devolvía el nombre de esta clase.
       </entry>
      </row>
