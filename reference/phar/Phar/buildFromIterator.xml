@@ -19,9 +19,9 @@
    Rellena un archivo phar a partir de un iterador. Dos estilos de iterador
    son soportados: los iteradores que hacen corresponder el nombre de archivo
    dentro del phar con el nombre de un archivo en el disco, y los iteradores
-   como <classname>DirectoryIterator</classname> que devuelven objetos
-   <classname>SplFileInfo</classname>. Para los iteradores que devuelven
-   objetos <classname>SplFileInfo</classname>, el segundo parámetro es
+   como DirectoryIterator que devuelven objetos
+   SplFileInfo. Para los iteradores que devuelven
+   objetos SplFileInfo, el segundo parámetro es
    obligatorio.
   </para>
  </refsect1>
