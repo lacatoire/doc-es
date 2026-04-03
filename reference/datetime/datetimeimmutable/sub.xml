@@ -20,7 +20,7 @@
   <para>
    Devuelve un nuevo objeto <classname>DateTimeImmutable</classname>, con el objeto
    <classname>DateInterval</classname> especificado sustraído del objeto
-   DateTimeImmutable especificado.
+   <classname>DateTimeImmutable</classname> especificado.
   </para>
  </refsect1>
 
