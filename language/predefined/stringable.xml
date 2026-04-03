@@ -45,7 +45,6 @@
 
   <section xml:id="stringable.examples">
    <title>Ejemplos de Stringable</title>
-   &reftitle.examples;
    <para>
     <example xml:id="stringable.basic-example">
      <title>Ejemplo simple</title>
