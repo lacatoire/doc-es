@@ -5,7 +5,7 @@
  <title>Codificación de caracteres</title>
  <para>
 La extensión de PHP XML es compatible con el conjunto de caracteres <link
-  xlink:href="&url.unicode;">Unicode</link> a través de diferentes codificaciones de caracteres. Hay dos tipos de codificaciones de caracteres: la codificación fuente y la codificación de destino. La representación interna de PHP del documento está siempre codificada con
+  xlink:href="&url.unicode;">Unicode</link> a través de diferentes <glossterm>codificaciones de caracteres</glossterm>. Hay dos tipos de codificaciones de caracteres: la <glossterm>codificación fuente</glossterm> y la <glossterm>codificación de destino</glossterm>. La representación interna de PHP del documento está siempre codificada con
   <literal>UTF-8</literal>.
  </para>
  <para>
