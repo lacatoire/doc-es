@@ -30,7 +30,7 @@
      <term><parameter>option</parameter></term>
      <listitem>
       <para>
-       La opción <literal>CURLOPT_<replaceable>*</replaceable></literal> a definir.
+       La opción <constant>CURLOPT_<replaceable>*</replaceable></constant> a definir.
       </para>
      </listitem>
     </varlistentry>
