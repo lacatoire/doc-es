@@ -43,29 +43,6 @@
        constantes <constant>CURLOPT_<replaceable>*</replaceable></constant>
        para detalles sobre el tipo de valores esperados por cada constante.
       </para>
-      <para>
-       Otros valores:
-       <informaltable>
-        <tgroup cols="3">
-         <thead>
-          <row>
-           <entry>Option</entry>
-           <entry>Define el parámetro <parameter>value</parameter> en</entry>
-          </row>
-         </thead>
-         <tbody>
-          <row>
-           <entry valign="top"><constant>CURLOPT_SHARE</constant></entry>
-           <entry valign="top">
-            Un resultado de la función <function>curl_share_init</function>.
-            Hace que el gestor cURL utilice los datos desde
-            el gestor compartido.
-           </entry>
-          </row>
-         </tbody>
-        </tgroup>
-       </informaltable>
-      </para>
      </listitem>
     </varlistentry>
    </variablelist>
