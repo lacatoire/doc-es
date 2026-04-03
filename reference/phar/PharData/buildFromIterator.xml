@@ -100,7 +100,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Ejemplo con <function>PharData::buildFromIterator</function> y <classname>SplFileInfo</classname></title>
+   <title>Ejemplo con <function>PharData::buildFromIterator</function> y SplFileInfo</title>
    <para>
     Para la mayoría de los archivos tar/zip, el archivo reflejará la estructura
     de directorio actual y el segundo estilo es el más útil. Por

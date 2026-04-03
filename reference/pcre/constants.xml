@@ -28,7 +28,7 @@
       que corresponden a la primera paréntesis capturante y así sucesivamente. Esta
       constante se utiliza con <function>preg_match_all</function>.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
     <row xml:id="constant.preg-set-order">
      <entry>
@@ -42,7 +42,7 @@
       segunda, etc.
       Esta constante se utiliza con <function>preg_match_all</function>.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
     <row xml:id="constant.preg-offset-capture">
      <entry>
@@ -77,12 +77,10 @@
       (<type>int</type>)
      </entry>
      <entry>
-      <para>
-       Ver la descripción de <constant>PREG_OFFSET_CAPTURE</constant>.
-       Esta bandera solo se utiliza con <function>preg_split</function>.
-      </para>
+      Ver la descripción de <constant>PREG_OFFSET_CAPTURE</constant>.
+      Esta bandera solo se utiliza con <function>preg_split</function>.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
     <row xml:id="constant.preg-split-offset-capture">
      <entry>
@@ -213,7 +211,7 @@
      <entry>
       Número de versión mayor de PCRE.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
     <row xml:id="constant.pcre-version-minor">
      <entry>
@@ -223,7 +221,7 @@
      <entry>
       Número de versión menor de PCRE.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
     <row xml:id="constant.pcre-jit-support">
      <entry>
@@ -233,7 +231,7 @@
      <entry>
       Indica si el soporte JIT de PCRE está disponible.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
     <row xml:id="constant.preg-grep-invert">
      <entry>
@@ -243,7 +241,7 @@
      <entry>
       Devuelve los elementos que no coinciden con un patrón dado.
      </entry>
-     <entry></entry>
+     <entry/>
     </row>
    </tbody>
   </tgroup>
