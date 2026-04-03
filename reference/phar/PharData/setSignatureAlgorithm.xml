@@ -38,26 +38,6 @@
       </para>
      </listitem>
     </varlistentry>
-    <varlistentry>
-     <term><parameter>privateKey</parameter></term>
-     <listitem>
-      <para>
-       El contenido de una clave privada OpenSSL, como extraída desde un
-       certificado o un fichero de clave OpenSSL:
-       <programlisting role="php">
-<![CDATA[
-<?php
-$private = openssl_get_privatekey(file_get_contents('private.pem'));
-$pkey = '';
-openssl_pkey_export($private, $pkey);
-$p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
-?>
-]]>
-       </programlisting>
-       Ver la <link linkend="phar.using">introducción Phar</link> para consignas de nombramiento y ubicación de ficheros de clave pública.
-      </para>
-     </listitem>
-    </varlistentry>
    </variablelist>
   </para>
  </refsect1>

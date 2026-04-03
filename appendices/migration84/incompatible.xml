@@ -358,6 +358,16 @@
    </para>
   </sect3>
 
+  <sect3 xml:id="migration84.incompatible.new-warnings-exceptions.session">
+   <title>Sesión</title>
+
+   <simpara>
+    Establecer un valor no positivo para <link linkend="ini.session.gc-divisor">session.gc_divisor</link>
+    o un valor negativo para <link linkend="ini.session.gc-probability">session.gc_probability</link>
+    emite ahora una advertencia.
+   </simpara>
+  </sect3>
+
   <sect3 xml:id="migration84.incompatible.new-warnings-exceptions.simplexml">
    <title>SimpleXML</title>
 
@@ -672,16 +682,6 @@
   <simpara>
    La información de conexión DSN, cuando se define, ahora tiene prioridad sobre
    los argumentos del constructor PDO, estando más cerca de lo que indica la documentación.
-  </simpara>
- </sect2>
-
- <sect2 xml:id="migration84.incompatible.new-warnings-exceptions.session">
-  <title>Sesión</title>
-
-  <simpara>
-   Establecer un valor no positivo para <link linkend="ini.session.gc-divisor">session.gc_divisor</link>
-   o un valor negativo para <link linkend="ini.session.gc-probability">session.gc_probability</link>
-   emite ahora una advertencia.
   </simpara>
  </sect2>
 

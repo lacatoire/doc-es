@@ -33,7 +33,7 @@
      <listitem>
       <para>
        Array de valores que será utilizado como claves. Los valores
-       ilegales para las claves serán convertidos en strings.
+       ilegales para las claves serán convertidos en <type>string</type>.
       </para>
      </listitem>
     </varlistentry>
@@ -55,6 +55,11 @@
   <para>
    Devuelve el array relleno.
   </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  &errors.no.unusual.warnings;
  </refsect1>
 
  <refsect1 role="examples">

@@ -390,7 +390,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry xml:id="constant.php-man-dir">
+  <varlistentry xml:id="constant.php-mandir">
    <term>
     <constant>PHP_MANDIR</constant>
     (<type>string</type>)
