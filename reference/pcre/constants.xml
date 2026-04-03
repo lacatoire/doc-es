@@ -75,7 +75,8 @@
       (<type>int</type>)
      </entry>
      <entry>
-      Esta bandera solo se utiliza con <function>preg_split</function>.
+      Esta bandera indica a <function>preg_split</function> que capture
+      también las expresiones entre paréntesis del patrón delimitador.
      </entry>
      <entry/>
     </row>
