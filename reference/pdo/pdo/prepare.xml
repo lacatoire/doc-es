@@ -93,7 +93,7 @@
      <listitem>
       <para>
        Este array contiene una o más parejas clave=&gt;valor para definir
-       los valores de los atributos para el objeto <classname>PDOStatement</classname>
+       los valores de los atributos para el objeto PDOStatement
        que esta método devuelve. Puede utilizarse esto para definir el valor
        <literal>PDO::ATTR_CURSOR</literal> a
        <literal>PDO::CURSOR_SCROLL</literal> para solicitar un cursor desplazable.

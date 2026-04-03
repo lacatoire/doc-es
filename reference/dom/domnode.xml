@@ -278,7 +278,7 @@
     <varlistentry xml:id="domnode.props.nodetype">
      <term><varname>nodeType</varname></term>
      <listitem>
-      <para>Recupera el tipo del nódo. Una de las <link linkend="dom.constants">constantes XML_<replaceable>*</replaceable>_NODE</link></para>
+      <para>Recupera el tipo del nódo. Una de las constantes predefinidas <constant>XML_<replaceable>*</replaceable>_NODE</constant></para>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="domnode.props.parentnode">

@@ -50,13 +50,11 @@
       (<type>int</type>)
      </entry>
      <entry>
-      <para>
-       Si esta opción está activada, para cada coincidencia encontrada,
-       el desplazamiento del byte correspondiente también será devuelto.
-       Tenga en cuenta que esto modifica los valores de retorno: cada elemento del array
-       se convierte en un array que contiene la cadena correspondiente en el offset 0
-       y su desplazamiento en la cadena analizada en el offset 1.
-      </para>
+      Si esta opción está activada, para cada coincidencia encontrada,
+      el desplazamiento del byte correspondiente también será devuelto.
+      Tenga en cuenta que esto modifica los valores de retorno: cada elemento del array
+      se convierte en un array que contiene la cadena correspondiente en el offset 0
+      y su desplazamiento en la cadena analizada en el offset 1.
      </entry>
      <entry/>
     </row>
