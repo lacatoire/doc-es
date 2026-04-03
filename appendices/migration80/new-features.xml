@@ -233,6 +233,11 @@ class ChildClass extends ParentClass {
       <code>(int) $resource</code>. Proporciona la misma funcionalidad con una API más clara.
      </para>
     </listitem>
+    <listitem>
+     <para>
+      Se ha añadido <classname>InternalIterator</classname>.
+     </para>
+    </listitem>
    </itemizedlist>
   </sect3>
  </sect2>
