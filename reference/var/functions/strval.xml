@@ -16,7 +16,7 @@
   </methodsynopsis>
   <simpara>
    Obtiene el valor de la variable <parameter>value</parameter>,
-   en formato string. Consulte la documentación sobre strings para obtener más información sobre la conversión a string.
+   en formato string. Consulte la documentación sobre <type>string</type> para obtener más información sobre la conversión a string.
   </simpara>
   <simpara>
    Esta función no realiza ningún formateo en el valor devuelto.
