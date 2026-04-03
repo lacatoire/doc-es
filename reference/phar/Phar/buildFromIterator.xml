@@ -108,7 +108,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
    <example>
-    <title>Ejemplo con <function>Phar::buildFromIterator</function> y <classname>SplFileInfo</classname></title>
+    <title>Ejemplo con <function>Phar::buildFromIterator</function> y SplFileInfo</title>
     <para>
      Para la mayoría de archivos phar, el archivo refleja la estructura
      de un directorio, y el segundo estilo es el más útil. Por ejemplo,

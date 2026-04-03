@@ -80,7 +80,7 @@
      <term><parameter>value</parameter></term>
      <listitem>
       <para>
-       El valor para la opción dada.
+       El valor para el parámetro <parameter>option</parameter> dado.
       </para>
      </listitem>
     </varlistentry>

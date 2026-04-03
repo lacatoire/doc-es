@@ -152,7 +152,7 @@ $phar->buildFromIterator(
    <para>
     Se debe notar que <function>Phar::buildFromIterator</function> también
     puede ser utilizado para copiar el contenido de un archivo phar, tar o zip
-    existente, ya que el objeto <classname>PharData</classname> es derivado
+    existente, ya que el objeto PharData es derivado
     de <classname>DirectoryIterator</classname>:
    </para>
    <para>
