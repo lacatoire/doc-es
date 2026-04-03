@@ -1207,7 +1207,7 @@ include_path = ".:${USER}/pear/php"
       </term>
       <listitem>
        <para>
-        Controla si PHP CGI verifica la línea que comienza con <literal>#!</literal> (shebang) en la parte superior del script ejecutado. Esta línea es necesaria si el script está destinado a ejecutarse de forma independiente y a través de un PHP CGI. PHP en modo CGI no lee esta línea y omite su contenido si esta directiva está activa.
+        Controla si PHP <acronym>CGI</acronym> verifica la línea que comienza con <literal>#!</literal> (shebang) en la parte superior del script ejecutado. Esta línea es necesaria si el script está destinado a ejecutarse de forma independiente y a través de un PHP <acronym>CGI</acronym>. PHP en modo <acronym>CGI</acronym> no lee esta línea y omite su contenido si esta directiva está activa.
        </para>
       </listitem>
      </varlistentry>
@@ -1231,7 +1231,7 @@ include_path = ".:${USER}/pear/php"
       </term>
       <listitem>
        <para>
-        Proporciona un <emphasis>real</emphasis> <literal>PATH_INFO</literal>/<literal>PATH_TRANSLATED</literal> para CGI. El comportamiento anterior de PHP era establecer <literal>PATH_TRANSLATED</literal> en <literal>SCRIPT_FILENAME</literal> y no llenar <literal>PATH_INFO</literal>. Para obtener más información sobre <literal>PATH_INFO</literal>, consulte las especificaciones CGI. Si se establece en <literal>1</literal>, PHP CGI corregirá este camino según las especificaciones. Si se establece en <literal>0</literal>, PHP aplicará el comportamiento anterior. De manera predeterminada, esta directiva está activada. Debe modificar sus scripts para usar <literal>SCRIPT_FILENAME</literal> en lugar de <literal>PATH_TRANSLATED</literal>.
+        Proporciona un <emphasis>real</emphasis> <literal>PATH_INFO</literal>/<literal>PATH_TRANSLATED</literal> para <acronym>CGI</acronym>. El comportamiento anterior de PHP era establecer <literal>PATH_TRANSLATED</literal> en <literal>SCRIPT_FILENAME</literal> y no llenar <literal>PATH_INFO</literal>. Para obtener más información sobre <literal>PATH_INFO</literal>, consulte las especificaciones <acronym>CGI</acronym>. Si se establece en <literal>1</literal>, PHP <acronym>CGI</acronym> corregirá este camino según las especificaciones. Si se establece en <literal>0</literal>, PHP aplicará el comportamiento anterior. De manera predeterminada, esta directiva está activada. Debe modificar sus scripts para usar <literal>SCRIPT_FILENAME</literal> en lugar de <literal>PATH_TRANSLATED</literal>.
        </para>
       </listitem>
      </varlistentry>
@@ -1243,7 +1243,7 @@ include_path = ".:${USER}/pear/php"
       </term>
       <listitem>
        <para>
-        cgi.force_redirect es necesario por razones de seguridad al usar PHP en modo CGI bajo la mayoría de los servidores web. Si no lo establece, PHP lo activará automáticamente de manera predeterminada. Puede desactivarlo <emphasis>bajo su propio riesgo</emphasis>.
+        cgi.force_redirect es necesario por razones de seguridad al usar PHP en modo <acronym>CGI</acronym> bajo la mayoría de los servidores web. Si no lo establece, PHP lo activará automáticamente de manera predeterminada. Puede desactivarlo <emphasis>bajo su propio riesgo</emphasis>.
        </para>
        <note>
         <para>

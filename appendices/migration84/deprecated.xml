@@ -124,7 +124,7 @@ class _ {}
 
    <note>
     <para>
-     Las clases cuyo nombre comienza con un guion bajo no están
+     Las clases cuyo nombre comienza con un guion bajo <emphasis>no</emphasis> están
      desaprobadas:
      <informalexample>
       <programlisting role="php">
