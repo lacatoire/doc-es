@@ -63,7 +63,7 @@
      <term><parameter>conditions</parameter></term>
      <listitem>
       <para>
-       Un &array; donde las claves son los nombres de los campos de la tabla
+       Un <type>array</type> donde las claves son los nombres de los campos de la tabla
        <parameter>table_name</parameter> y donde los valores son los valores
        de estos campos que deben ser eliminados.
       </para>
