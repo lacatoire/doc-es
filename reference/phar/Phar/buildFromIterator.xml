@@ -35,7 +35,7 @@
      <listitem>
       <para>
        Un iterador que asocia un archivo con una posición, o bien
-       devuelve objetos <classname>SplFileInfo</classname>.
+       devuelve objetos SplFileInfo.
       </para>
      </listitem>
     </varlistentry>
@@ -44,7 +44,7 @@
      <listitem>
       <para>
        Para los iteradores que devuelven objetos
-       <classname>SplFileInfo</classname>, la porción de ruta absoluta
+       SplFileInfo, la porción de ruta absoluta
        de cada archivo que debe ser eliminada al añadir al
        archivo phar.
       </para>
@@ -70,7 +70,7 @@
    cuando el iterador devuelve valores falsos, tales como una clave
    entera en lugar de una cadena; una excepción
    <classname>BadMethodCallException</classname> cuando un iterador
-   basado en <classname>SplFileInfo</classname> es pasado sin parámetro
+   basado en SplFileInfo es pasado sin parámetro
    <parameter>baseDirectory</parameter>, o una excepción
    <classname>PharException</classname> si ha habido errores al
    guardar el archivo phar.
