@@ -95,7 +95,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;  Devuelve un &string; si <constant>PGSQL_DML_STRING</constant>
+   &return.success;  Devuelve un <type>string</type> si <constant>PGSQL_DML_STRING</constant>
    es pasado en el parámetro <parameter>flags</parameter>.
   </para>
  </refsect1>

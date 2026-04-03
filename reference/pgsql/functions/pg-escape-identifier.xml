@@ -44,7 +44,7 @@
      <term><parameter>data</parameter></term>
      <listitem>
       <para>
-       Una &string; que contiene texto a proteger.
+       Una <type>string</type> que contiene texto a proteger.
       </para>
      </listitem>
     </varlistentry>

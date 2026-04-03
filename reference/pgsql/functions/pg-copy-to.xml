@@ -71,7 +71,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
    <para>
-    Un &array; con un elemento para cada línea de datos
+    Un <type>array</type> con un elemento para cada línea de datos
     <literal>COPY</literal>, &return.falseforfailure;.
    </para>
  </refsect1>

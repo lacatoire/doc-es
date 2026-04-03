@@ -48,7 +48,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un &array; que contiene todos los valores de una columna del resultado.
+   Un <type>array</type> que contiene todos los valores de una columna del resultado.
   </para>
  </refsect1>
 
