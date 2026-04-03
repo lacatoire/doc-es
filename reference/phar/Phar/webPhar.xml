@@ -127,7 +127,7 @@ $mimes = array(
      <listitem>
       <para>
        La función de reescritura que se pasa toma como único argumento un string
-       y debe devolver un string o false.
+       y debe devolver un <type>string</type> o false.
       </para>
       <para>
        Si se utiliza fast-cgi o cgi, el argumento pasado a la función es el valor de la

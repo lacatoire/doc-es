@@ -70,7 +70,7 @@
      A diferencia de las <link linkend="language.types.string.syntax.double">comillas dobles</link>
      y <link linkend="language.types.string.syntax.heredoc">sintaxis heredoc</link>,
      las <link linkend="language.variables">variables</link> y las secuencias de escape
-     para caracteres especiales <emphasis>no</emphasis> serán <emphasis>extendidas</emphasis>
+     para caracteres especiales <emphasis>no</emphasis> serán extendidas
      cuando se encuentren en <type>strings</type> entre comillas simples.
     </simpara>
    </note>

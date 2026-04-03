@@ -123,7 +123,7 @@ Array
          <listitem>
           <para>
            Si este flag es pasado, los subpatrones no coincidentes son reportados como &null;;
-           de lo contrario son reportados como &string; vacío.
+           de lo contrario son reportados como una <type>string</type> vacía.
            <informalexample>
             <programlisting role="php">
 <![CDATA[
