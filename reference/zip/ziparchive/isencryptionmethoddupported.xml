@@ -36,7 +36,7 @@
      <term><parameter>enc</parameter></term>
      <listitem>
       <para>
-       Si es <literal>true</literal>, verifica el cifrado; si es <literal>false</literal>, verifica el
+       Si es &true;, verifica el cifrado; si es &false;, verifica el
        descifrado.
       </para>
      </listitem>

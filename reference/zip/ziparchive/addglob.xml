@@ -92,8 +92,7 @@
          <literal>"comp_method"</literal>
         </para>
         <para>
-         Método de compresión, una de las constantes <constant>ZipArchive::CM_<replaceable>*</replaceable></constant>,
-         ver la página de <link linkend="zip.constants">constantes ZIP</link>.
+         Método de compresión, una de las constantes <constant>ZipArchive::CM_<replaceable>*</replaceable></constant>.
         </para>
        </listitem>
        <listitem>
@@ -109,8 +108,7 @@
          <literal>"enc_method"</literal>
         </para>
         <para>
-         Método de cifrado, una de las constantes <constant>ZipArchive::EM_<replaceable>*</replaceable></constant>,
-         ver la página de <link linkend="zip.constants">constantes ZIP</link>.
+         Método de cifrado, una de las constantes <constant>ZipArchive::EM_<replaceable>*</replaceable></constant>.
         </para>
        </listitem>
        <listitem>
