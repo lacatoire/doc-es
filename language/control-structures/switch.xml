@@ -8,7 +8,7 @@
  <?phpdoc print-version-for="switch"?>
  <simpara>
   La instrucción <literal>switch</literal> equivale a una serie de instrucciones
-  if. En numerosas ocasiones, se necesitará comparar la misma variable (o expresión) con un gran número de valores
+  <literal>if</literal>. En numerosas ocasiones, se necesitará comparar la misma variable (o expresión) con un gran número de valores
   diferentes, y ejecutar diferentes partes de código según el valor
   al que sea igual. Esto es exactamente para lo que sirve la instrucción
   <literal>switch</literal>.
@@ -82,7 +82,7 @@ if ($i == 0) {
   o bien hasta que encuentra la instrucción <literal>break</literal>.
   Si no se puede utilizar la instrucción
   <literal>break</literal> al final de la instrucción
-  case, PHP continuará ejecutando
+  <literal>case</literal>, PHP continuará ejecutando
   todas las instrucciones que siguen. Por ejemplo :
   <informalexample>
    <programlisting role="php">
@@ -120,7 +120,7 @@ switch ($i) {
   <literal>switch</literal> será más rápido.
  </simpara>
  <para>
-  La lista de comandos de un case puede
+  La lista de comandos de un <literal>case</literal> puede
   estar vacía, en cuyo caso PHP utilizará la lista de
   comandos del caso siguiente.
   <informalexample>
@@ -183,9 +183,9 @@ switch ($i) {
   Si ningún <literal>case</literal> coincide, y no hay un <literal>default</literal>, entonces no se ejecutará ningún código, al igual que si ninguna instrucción <literal>if</literal> fuera verdadera.
  </para>
 <para>
-    Un valor de case puede ser dado en forma de expresión. Sin embargo, esta expresión será
-  evaluada sola, y luego comparada de manera aproximada con el valor del switch. Esto significa
-  que no puede ser utilizada para evaluaciones complejas del valor del switch. Por ejemplo :
+    Un valor de <literal>case</literal> puede ser dado en forma de expresión. Sin embargo, esta expresión será
+  evaluada sola, y luego comparada de manera aproximada con el valor del <literal>switch</literal>. Esto significa
+  que no puede ser utilizada para evaluaciones complejas del valor del <literal>switch</literal>. Por ejemplo :
   <informalexample>
    <programlisting role="php">
 <![CDATA[

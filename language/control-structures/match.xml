@@ -199,7 +199,7 @@ $expressionResult = match ($condition) {
 
  <para>
   Una expresión <literal>match</literal> debe ser exhaustiva. Si la expresión
-  no es tratada por ningún brazo de match, se lanza un error
+  no es tratada por ningún brazo de <literal>match</literal>, se lanza un error
  <classname>UnhandledMatchError</classname>.
  </para>
 
