@@ -68,7 +68,7 @@
   &reftitle.returnvalues;
   <para>
    Devuelve un <type>array</type> que contiene todas las entradas del array
-   <parameter>array1</parameter> que no están presentes en
+   <parameter>array</parameter> que no están presentes en
    ningún otro array.
   </para>
  </refsect1>

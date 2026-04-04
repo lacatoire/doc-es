@@ -81,11 +81,6 @@
   </para>
  </refsect1>
 
- <refsect1 role="errors">
-  &reftitle.errors;
-  &errors.no.unusual.errors;
- </refsect1>
-
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
