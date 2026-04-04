@@ -6,9 +6,9 @@
 
  <simpara>
   Salvo mención contraria en esta sección,
-  cada nueva <link xlink:href="migration84.new-functions">función</link>,
-  <link xlink:href="migration84.new-classes">clase, interfaz, enumeración</link>,
-  o <link xlink:href="migration84.constants">constante</link>
+  cada nueva <link linkend="migration84.new-functions">función</link>,
+  <link linkend="migration84.new-classes">clase, interfaz, enumeración</link>,
+  o <link linkend="migration84.constants">constante</link>
   puede provocar el lanzamiento de una excepción de redeclaración <exceptionname>Error</exceptionname>.
  </simpara>
 
