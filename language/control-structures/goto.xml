@@ -28,7 +28,7 @@
   La etiqueta de destino debe estar en el mismo contexto y fichero, lo que significa
   que no es posible cambiar de método o función,
   ni ir a otra función. Asimismo, es imposible entrar
-  en una estructura de bucle o un <literal>switch</literal>.
+  en una estructura de bucle o un switch.
   Sin embargo, es posible salir de ellas, y el uso común es entonces utilizar
   <literal>goto</literal> como un <literal>break</literal>.
  </para>

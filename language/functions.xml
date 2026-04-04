@@ -265,7 +265,7 @@ function takes_many_args(
    </simpara>
    <para>
     Si se desea que un argumento sea siempre pasado
-    por referencia, se puede añadir un '<literal>&amp;</literal>'
+    por referencia, se puede añadir un '&amp;'
     delante del parámetro en la declaración de la función:
    </para>
    <para>

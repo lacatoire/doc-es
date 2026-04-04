@@ -326,7 +326,7 @@ function standard_array_compare($op1, $op2)
   <title>Comparación de números de punto flotante</title>
 
   <para>
-   Debido a la forma en que los números de punto flotante son representados
+   Debido a la forma en que los <type>float</type>s son representados
    internamente, no se debe probar la igualdad entre dos números de tipo
    <type>float</type>.
   </para>
