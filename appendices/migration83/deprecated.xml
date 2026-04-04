@@ -116,7 +116,7 @@
   <para>
    Llamar a <methodname>ReflectionProperty::setValue</methodname> con solo un
    parámetro está depreciado.
-   Para definir propiedades estáticas, pasar <literal>null</literal> como primer parámetro.
+   Para definir propiedades estáticas, pasar &null; como primer parámetro.
   </para>
  </sect2>
 
