@@ -46,7 +46,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>delimiter</parameter></term>
+     <term><parameter>separator</parameter></term>
      <listitem>
       <para>
        El marcador que separa los valores para cada campo en cada
