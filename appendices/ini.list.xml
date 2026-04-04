@@ -455,7 +455,7 @@
      <row>
       <entry>mail.force_extra_parameters</entry>
       <entry>&null;</entry>
-      <entry>&php.ini; solo</entry>
+      <entry><constant>INI_SYSTEM</constant></entry>
       <entry></entry>
      </row>
      <row>
@@ -592,7 +592,7 @@
       <entry><literal>"-1"</literal></entry>
       <entry><constant>INI_ALL</constant></entry>
       <entry>
-       Anterior a PHP 7.1.0, el valor predeterminado era 17.
+       Anterior a PHP 7.1.0, el valor predeterminado era <literal>17</literal>.
       </entry>
      </row>
      <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('session.configuration.list')/*)"><xi:fallback/></xi:include>
@@ -689,7 +689,7 @@
       <entry><link linkend="ini.url-rewriter.tags">url_rewriter.tags</link></entry>
       <entry><literal>"form="</literal></entry>
       <entry><constant>INI_ALL</constant></entry>
-      <entry>Anterior a PHP 7.1.0, el valor predeterminado era "a=href,area=href,frame=src,form=,fieldset=".</entry>
+      <entry>Anterior a PHP 7.1.0, el valor predeterminado era <literal>"a=href,area=href,frame=src,form=,fieldset="</literal>.</entry>
      </row>
      <row>
       <entry><link linkend="ini.user-agent">user_agent</link></entry>
@@ -793,6 +793,12 @@
       <entry><literal>"0"</literal></entry>
       <entry><constant>INI_PERDIR</constant></entry>
       <entry></entry>
+     </row>
+     <row>
+      <entry><link linkend="ini.zend.reserved-stack-size">zend.reserved_stack_size</link></entry>
+      <entry><literal>"0"</literal></entry>
+      <entry><constant>INI_SYSTEM</constant></entry>
+      <entry>Disponible a partir de PHP 8.3.0</entry>
      </row>
      <row>
       <entry><link linkend="ini.zend.script-encoding">zend.script_encoding</link></entry>
