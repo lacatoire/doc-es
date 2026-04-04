@@ -114,7 +114,7 @@
     <varlistentry xml:id="domattr.props.specified">
      <term><varname>specified</varname></term>
      <listitem>
-      <para>Aún no implementado, siempre vale &null;.</para>
+      <para>Aún no implementado, siempre vale &true;.</para>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="domattr.props.value">
