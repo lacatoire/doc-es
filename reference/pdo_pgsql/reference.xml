@@ -11,9 +11,9 @@
    <section xml:id="ref.pdo-pgsql.intro">
    &reftitle.intro;
     <para>
-     PDO_PGSQL es un controlador que implementa la <link
-     linkend="intro.pdo">interfaz de PHP Data Objects (PDO)</link> para
-     permitir el acceso de PHP a las bases de datos PostgreSQL.
+     PDO_PGSQL es un controlador que implementa la <link linkend="intro.pdo">PHP
+     Data Objects (PDO)</link>
+     para permitir el acceso de PHP a las bases de datos PostgreSQL.
     </para>
    </section>
 

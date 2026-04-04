@@ -68,7 +68,7 @@
   &reftitle.returnvalues;
   <para>
    Una llamada exitosa devuelve el valor del atributo PDO solicitado.
-   Una llamada que ha fallado devuelve el valor &null;.
+   Una llamada que ha fallado devuelve el valor <literal>null</literal>.
   </para>
  </refsect1>
 
