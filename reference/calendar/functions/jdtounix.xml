@@ -52,7 +52,7 @@
   <para>
    Si <parameter>julian_day</parameter> está fuera del intervalo permitido,
    se lanza una <classname>ValueError</classname>.
- </para>
+  </para>
  </refsect1>
 
  <refsect1 role="changelog">

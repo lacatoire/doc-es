@@ -170,9 +170,9 @@ curl_exec($ch);
    <para>
     El hecho de pasar un array a la constante
     <constant>CURLOPT_POSTFIELDS</constant> codificará los datos como
-    <emphasis><literal>multipart/form-data</literal></emphasis>, mientras que el hecho de pasar
+    <emphasis>multipart/form-data</emphasis>, mientras que el hecho de pasar
     una cadena codificada URL codificará los datos como
-    <emphasis><literal>application/x-www-form-urlencoded</literal></emphasis>.
+    <emphasis>application/x-www-form-urlencoded</emphasis>.
    </para>
   </note>
  </refsect1>
